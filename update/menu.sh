@@ -28,7 +28,7 @@ echo -e "${CYAN}❖» TROJAN GO MENU                                         ⊹
 echo -e "${CYAN}❖» PENGATURAN                                              ⊹"
 echo -e "${NC}❖» EXIT                                                        ⊹"
 echo -e "${LIGHT}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━✫"
-echo -e "${LIGHT}_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-__-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-"
+echo -e "${LIGHT}_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-"
 read -p "Select From Options [ 1 - 13 ] : " menu
 case $menu in
 1)
