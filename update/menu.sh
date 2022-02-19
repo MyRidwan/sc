@@ -12,7 +12,7 @@ LIGHT='\033[0;37m'
 echo -e ""
 echo -e "                 ${PURPLE}◥꧁ད❖•ೋ°𖤍°ೋ•❖ཌ꧂◤"
 echo -e "${LIGHT}क▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬क"
-echo -e "${LIGHT}||                  ${CYAN}MENU UTAMA RIDWAN                   ${LIGHT}||"
+echo -e "${LIGHT}||                  ${CYAN}MENU UTAMA RIDWAN                   "
 echo -e "${LIGHT}❖━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━❖"
 echo -e "${RED}❖» SSH & OpenVPN MENU                                   ⊹"
 echo -e "${RED}❖» L2TP MENU                                               ⊹"
