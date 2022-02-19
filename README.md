@@ -1,6 +1,6 @@
 
 
-# ☁️ Project Fog version 3.01 ☁️
+# ☁️ *Project RIDWAN-STORE™ version 3.01* ☁️
 
 Project Fog is a VPS AutoScript for Ubuntu and Debian Distros. Comes with pre-installed tunneling software. See below for a list of pre-installed programs.
 
@@ -30,20 +30,20 @@ _It will install the version of RIDWAN-STORE™ that is compatible with your VPS
 
 ```bash
   sudo su
-  rm -f setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/myridwan/sc/ipuk/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh```
-
+  rm -f setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/myridwan/sc/ipuk/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
+```
 <p align="center">
   <img src="https://user-images.githubusercontent.com/76937659/153705486-44e6c1b2-74fa-4d44-be1c-36c8fdb83331.gif"/>
 </p>
 
 
-_The version can be manually chosen for your virtual private server if universal installation fails._ See [_Project Fog Versions_](docs/fog-versions.md).
+_The version can be manually chosen for your virtual private server if universal installation fails._ See [Ridwan Fog Versions_](docs/fog-versions.md).
 ##
 
 
 
 ## Command: _menu_ 
-`Use this to access Project Fog Menu through vps terminal`
+`Use this to access PROJECT RIDWAN Menu through vps terminal`
 #
 
     
