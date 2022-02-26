@@ -10,9 +10,11 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # =========================================
 echo -e ""
+figlet -f slant RIDWAN - STORE | lolcat
+echo -e ""
 echo -e "                 ${PURPLE}◥꧁ད❖•ೋ°𖤍°ೋ•❖ཌ꧂◤"
 echo -e "${LIGHT}©-------------------------------------------------------------©"
-echo -e "${LIGHT}||                  ${CYAN}MENU UTAMA RIDWAN                  ©"
+echo -e "${LIGHT}||                  ${CYAN}MENU UTAMA RIDWAN                    ©"
 echo -e "${LIGHT}©-------------------------------------------------------------©"
 echo -e "${RED}1❖» SSH & OpenVPN MENU                                          ⊹"
 echo -e "${RED}2❖» L2TP MENU                                                   ⊹"
@@ -28,7 +30,7 @@ echo -e "${CYAN}11❖» TROJAN GO MENU                                          
 echo -e "${CYAN}12❖» PENGATURAN                                                ⊹"
 echo -e "${NC}13❖» EXIT                                                        ⊹"
 echo -e "${LIGHT}©-------------------------------------------------------------©"
-echo -e "${LIGHT}||                  ${CYAN}SCRIPT BY RIDWAN                   ©"
+echo -e "${LIGHT}||                  ${CYAN}SCRIPT BY RIDWAN                     ©"
 echo -e "${LIGHT}©-------------------------------------------------------------©"
 read -p "Select From Options [ 1 - 13 ] : " menu
 case $menu in
