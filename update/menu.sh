@@ -10,7 +10,7 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # =========================================
 echo -e ""
-figlet -f slant RIDWAN - STORE | lolcat
+echo -e "${LIGHT}                       SCRIP PREMIUM RIDWAN"
 echo -e ""
 echo -e "                 ${PURPLE}◥꧁ད❖•ೋ°𖤍°ೋ•❖ཌ꧂◤"
 echo -e "${LIGHT}©-------------------------------------------------------------©"
