@@ -30,11 +30,11 @@ clear
 echo "Checking VPS"
 clear
 apt install jq curl -y
-DOMAIN=installer.my.id
+DOMAIN=ridwan-vpn-xyz.ga
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
-SUB_DOMAIN=${sub}.installer.my.id
-CF_ID=senowahyu62@gmail.com
-CF_KEY=84570683099becbeb0f04d8086ce6f309c56c
+SUB_DOMAIN=${sub}.ridwan-vpn-xyz.ga
+CF_ID=ziexyuan@gmail.com
+CF_KEY=598d5a88df065a274861218c3ef037fd
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
