@@ -30,11 +30,11 @@ clear
 echo "Checking VPS"
 clear
 apt install jq curl -y
-DOMAIN=installer.my.id
-sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
-SUB_DOMAIN=${sub}.installer.my.id
-CF_ID=senowahyu62@gmail.com
-CF_KEY=84570683099becbeb0f04d8086ce6f309c56c
+DOMAIN=polarisvpn.cf
+sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
+SUB_DOMAIN=${sub}.polarisvpn.cf
+CF_ID=jconadera@gmail.com
+CF_KEY=e95c28a344251e89a0c752171d590ce39f6b9
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
