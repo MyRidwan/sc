@@ -30,9 +30,9 @@ clear
 echo "Checking VPS"
 clear
 apt install jq curl -y
-DOMAIN=ridwan-vpn-xyz.ga
+DOMAIN=worldssh.tech
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
-SUB_DOMAIN=${sub}.ridwan-vpn-xyz.ga
+SUB_DOMAIN=${sub}.worldssh.tech
 CF_ID=neza.afdhan@gmail.com
 CF_KEY=c7ce6739f7548dcb626dcbee71140345f2625
 set -euo pipefail
