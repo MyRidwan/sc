@@ -6,11 +6,15 @@ MYIP=$(wget -qO- icanhazip.com);
 echo "Script By Ridwan"
 clear
 apt install jq curl -y
-DOMAIN=premium-server.xyz
+DOMAIN=nezavpn.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.premium-server.xyz
-CF_ID=afdhan134@gmail.com
-CF_KEY=57fc95a923222474d5b90ff5444e0ee6f19ef
+echo $sub > /root/cfku
+SUB_DOMAIN=${sub}.nezavpn.my.id
+CF_ID=neza.afdhan@gmail.com
+CF_KEY=c7ce6739f7548dcb626dcbee71140345f2625
+echo "nezavpn.my.id" > /root/sdomain
+echo $SUB_DOMAIN > /root/subdomain
+
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
