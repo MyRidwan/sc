@@ -6,9 +6,9 @@ MYIP=$(wget -qO- icanhazip.com);
 echo "Script By Ridwan"
 clear
 apt install jq curl -y
-DOMAIN=dhans-project.xyz
+DOMAIN=premium-server.xyz
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.dhans-project.xyz
+SUB_DOMAIN=${sub}.premium-server.xyz
 CF_ID=afdhan134@gmail.com
 CF_KEY=57fc95a923222474d5b90ff5444e0ee6f19ef
 set -euo pipefail
