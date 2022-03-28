@@ -13,11 +13,11 @@ LIGHT='\033[0;37m'
 # ==========================================
 clear
 apt install jq curl socat -y
-DOMAIN=worldssh.tech
+DOMAIN=nezavpn.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
-SUB_DOMAIN=${sub}.worldssh.tech
+SUB_DOMAIN=${sub}.nezavpn.my.id
 CF_ID=neza.afdhan@gmail.com
-CF_KEY=144fa068a8533d3f4ce31fab53333bb04cac3
+CF_KEY=c7ce6739f7548dcb626dcbee71140345f2625
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
