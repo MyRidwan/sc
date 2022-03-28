@@ -2,19 +2,18 @@
 red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
+MYIP=$(wget -qO- icanhazip.com);
+echo "Script By Ridwan"
+clear
 apt install jq curl -y
-DOMAIN=sumbawa.me
+DOMAIN=dhans-project.xyz
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-echo $sub > /root/cfku
-SUB_DOMAIN=${sub}.sumbawa.me
-CF_ID=paoandest@gmail.com
-CF_KEY=1d158d0efc4eef787222cefff0b6d20981462
-echo "sumbawa.me" > /root/sdomain
-echo $SUB_DOMAIN > /root/subdomain
-
+SUB_DOMAIN=${sub}.dhans-project.xyz
+CF_ID=afdhan134@gmail.com
+CF_KEY=57fc95a923222474d5b90ff5444e0ee6f19ef
 set -euo pipefail
-IP=$(wget -qO- ipinfo.io/ip);
-echo "Record DNS ${SUB_DOMAIN}..."
+IP=$(wget -qO- icanhazip.com);
+echo "Updating DNS for ${SUB_DOMAIN}..."
 ZONE=$(curl -sLX GET "https://api.cloudflare.com/client/v4/zones?name=${DOMAIN}&status=active" \
      -H "X-Auth-Email: ${CF_ID}" \
      -H "X-Auth-Key: ${CF_KEY}" \
@@ -39,22 +38,7 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
      -H "Content-Type: application/json" \
      --data '{"type":"A","name":"'${SUB_DOMAIN}'","content":"'${IP}'","ttl":120,"proxied":false}')
 echo "Host : $SUB_DOMAIN"
+rm -rf /root/domain
 echo $SUB_DOMAIN > /root/domain
-
-#wget -O /usr/bin/dhn "https://raw.githubusercontent.com/Afdhan/CDN/main/A/I/U/E/O/dhn.sh"
-#wget -O /usr/bin/dhn2 "https://raw.githubusercontent.com/Afdhan/CDN/main/A/I/U/E/O/dhn2.sh"
-#wget -O /usr/bin/dhn3 "https://raw.githubusercontent.com/Afdhan/CDN/main/A/I/U/E/O/dhn3.sh"
-#wget -O /usr/bin/nza "https://raw.githubusercontent.com/Afdhan/CDN/main/A/I/U/E/O/nza.sh"
-#wget -O /usr/bin/wcc "https://raw.githubusercontent.com/Afdhan/CDN/main/A/I/U/E/O/cs_wc.sh"
-
-#chmod +x /usr/bin/dhn
-#chmod +x /usr/bin/dhn2
-#chmod +x /usr/bin/dhn3
-#chmod +x /usr/bin/nza
-#chmod +x /usr/bin/wcc
-
-echo -e "Done Record Domain For VPS" | lolcat
-figlet -f slant ridwan | lolcat
-sleep 1
-
+cp /root/domain /etc/v2ray/domain
 rm -f /root/cf.sh
