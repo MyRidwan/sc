@@ -9,7 +9,7 @@ echo $sub > /root/cfku
 SUB_DOMAIN=${sub}.sumbawa.me
 CF_ID=paoandest@gmail.com
 CF_KEY=1d158d0efc4eef787222cefff0b6d20981462
-echo "nezavpn.my.id" > /root/sdomain
+echo "sumbawa.me" > /root/sdomain
 echo $SUB_DOMAIN > /root/subdomain
 
 set -euo pipefail
