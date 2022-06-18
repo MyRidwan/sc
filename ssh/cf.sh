@@ -13,11 +13,11 @@ LIGHT='\033[0;37m'
 # ==========================================
 clear
 apt install jq curl socat -y
-DOMAIN=vpn-edu.xyz
+DOMAIN=kaizensystem.xyz
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
-SUB_DOMAIN=${sub}.vpn-edu.xyz
-CF_ID=pradiasangindraswari@gmail.com
-CF_KEY=75b54a5c9fd50751003abac0fefee534528c0
+SUB_DOMAIN=${sub}.kaizensystem.xyz
+CF_ID=hazboyz@gmail.com
+CF_KEY=4edad025afe10f3c7adeabe95f810c00a1b5f
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
