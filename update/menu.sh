@@ -47,7 +47,9 @@ echo -e "❇️ 10) TROJAN GFW MENU                                         "
 echo -e "❇️ 11) TROJAN GO MENU                                            "
 echo -e "❇️ 12) CEK SERVICE VPS                                            "
 echo -e "❇️ 13) PENGATURAN                                                "
-echo -e "❇️ 14) EXIT                                                        "
+echo -e "❇️ 14) CEK V2RAY "
+echo -e "❇️ 15) EDIT PATCH V2RAY "
+echo -e "❇️ 16) EXIT                                                        "
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "\E[44;1;39m            ⇱ Script By Ridwan ⇲             \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
@@ -106,6 +108,14 @@ clear
 setmenu
 ;;
 14)
+clear
+cekxray
+15)
+;;
+clear
+nano /etc/xray/config.json
+;;
+16)
 clear
 exit
 ;;
