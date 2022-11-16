@@ -465,6 +465,7 @@ wget -O trmenu "https://raw.githubusercontent.com/myridwan/sc/ipuk/update/trmenu
 wget -O trgomenu "https://raw.githubusercontent.com/myridwan/sc/ipuk/update/trgomenu.sh"
 wget -O setmenu "https://raw.githubusercontent.com/myridwan/sc/ipuk/update/setmenu.sh"
 wget -O running "https://raw.githubusercontent.com/myridwan/sc/ipuk/update/running.sh"
+wget -O cekxray "https://raw.githubusercontent.com/myridwan/src/ipuk/cekxray.sh"
 
 chmod +x portsshnontls
 chmod +x portsshws
@@ -527,6 +528,7 @@ chmod +x addtrgo
 chmod +x deltrgo
 chmod +x renewtrgo
 chmod +x cektrgo
+chmod +x cekxray 
 echo "0 5 * * * root clearlog && reboot" >> /etc/crontab
 echo "0 0 * * * root xp" >> /etc/crontab
 # remove unnecessary files
