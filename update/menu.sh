@@ -110,8 +110,8 @@ setmenu
 14)
 clear
 cekxray
-15)
 ;;
+15)
 clear
 nano /etc/xray/config.json
 ;;
