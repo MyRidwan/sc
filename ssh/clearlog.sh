@@ -52,3 +52,5 @@ echo > /var/log/btmp
 echo > /var/log/messages
 echo > /var/log/debug
 echo -e "${PURPLE}By RIDWAN - STORE"
+read -n 1 -s -r -p "   Press [ Enter ] to back on menu"
+menu
