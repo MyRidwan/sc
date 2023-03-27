@@ -65,3 +65,5 @@ clear
                echo " "
                echo "--------------------------------------"
                echo "Script are successfully run"
+               read -n 1 -s -r -p "   Press [ Enter ] to back on menu"
+menu
