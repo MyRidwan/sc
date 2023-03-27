@@ -69,3 +69,5 @@ echo "$oth";
 echo "-----------------------------------------"
 echo "Script By RIDWAN STORE"
 rm -rf /tmp/other.txt
+read -n 1 -s -r -p "   Press [ Enter ] to back on menu"
+menu
