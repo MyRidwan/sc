@@ -74,3 +74,5 @@ echo ""
 rm -rf /root/backup
 rm -r /root/$IP-$date.zip
 echo "Done"
+read -n 1 -s -r -p "   Press [ Enter ] to back on menu"
+menu
