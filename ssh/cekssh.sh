@@ -92,5 +92,5 @@ fi
 echo "----------------------------------------------";
 echo "Script By RIDWAN - STORE"
 echo "";
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   Press [ Enter ] to back on menu"
 menu
