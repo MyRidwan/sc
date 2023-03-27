@@ -44,3 +44,5 @@ screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7100 --max-clients 1000
 screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7200 --max-clients 1000
 screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 1000
 echo -e "Restart All Service Berhasil"
+read -n 1 -s -r -p "   Press [ Enter ] to back on menu"
+menu
