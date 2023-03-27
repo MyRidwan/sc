@@ -51,6 +51,8 @@ echo -e "    Days Added      :  $Days Days"
 echo -e "    Expires on      :  $Expiration_Display"
 echo -e ""
 echo -e "========================================"
+read -n 1 -s -r -p "   Press [ Enter ] to back on menu"
+menu
 else
 clear
 echo -e ""
@@ -59,4 +61,6 @@ echo -e ""
 echo -e "        Username Doesnt Exist        "
 echo -e ""
 echo -e "======================================"
+read -n 1 -s -r -p "   Press [ Enter ] to back on menu"
+menu
 fi
