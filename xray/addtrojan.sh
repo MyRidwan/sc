@@ -68,3 +68,5 @@ echo -e "=========================="
 echo -e "Link TR  : ${trojanlink}"
 echo -e "=========================="
 echo -e "Script By Ridwan Store"
+read -n 1 -s -r -p "   Press [ Enter ] to back on menu"
+menu
